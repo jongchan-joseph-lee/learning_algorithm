@@ -9,7 +9,7 @@ def hanoi(x,n1,n2,n3):
         
 move = []
 
-hanoi(4,1,2,3)
+hanoi(int(input()),1,2,3)
 
 print(len(move))
 print(move)
